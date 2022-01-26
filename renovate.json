@@ -1,6 +1,9 @@
 {
   "extends": [
-    "config:base"
+    "config:base",
+     ":pinOnlyDevDependencies",
+        ":dependencyDashboard",
+        ":dependencyDashboardApproval"
   ],
   "includeForks": true
 }
